@@ -1,8 +1,5 @@
 ﻿using BusinessLayer.Interfaces;
-using BusinessLayer.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using static DataAccessLayer.DTOs.OrderDetailsDTO;
 using static DataAccessLayer.DTOs.OrdersDTO;
 
 namespace PresentationLayer.Controllers
@@ -29,7 +26,7 @@ namespace PresentationLayer.Controllers
             }
             else
             {
-                return BadRequest();
+                return BadRequest(response.Message);
             }
         }
 
@@ -44,7 +41,7 @@ namespace PresentationLayer.Controllers
             }
             else
             {
-                return BadRequest();
+                return BadRequest(response.Message);
             }
         }
 
@@ -58,7 +55,7 @@ namespace PresentationLayer.Controllers
             }
             else
             {
-                return BadRequest();
+                return BadRequest(response.Message);
             }
         }
 
@@ -73,7 +70,7 @@ namespace PresentationLayer.Controllers
             }
             else
             {
-                return BadRequest();
+                return BadRequest(response.Message);
             }
         }
 
@@ -87,7 +84,7 @@ namespace PresentationLayer.Controllers
             }
             else
             {
-                return BadRequest();
+                return BadRequest(response.Message);
             }
         }
 
@@ -101,13 +98,24 @@ namespace PresentationLayer.Controllers
             }
             else
             {
-                return BadRequest();
+                return BadRequest(response.Message);
             }
         }
 
+        // Yeni eklenen: CustomerId'ye göre siparişleri getirir
+        [HttpGet("GetByCustomerId/{customerId}")]
+        public IActionResult GetByCustomerId(int customerId)
+        {
+            var response = _ordersService.GetOrdersByCustomerId(customerId);
 
-
-        
-
+            if (response.Success)
+            {
+                return Ok(response);
+            }
+            else
+            {
+                return BadRequest(response.Message);
+            }
+        }
     }
 }

@@ -17,7 +17,7 @@ namespace DataAccessLayer.DTOs
         }
         public class ProductsQuery
         {
-            public int Id { get; set; }
+            public int ProductID { get; set; }
             public string? ProductName { get; set; }
             public decimal Price { get; set; }
             public int Stock { get; set; }

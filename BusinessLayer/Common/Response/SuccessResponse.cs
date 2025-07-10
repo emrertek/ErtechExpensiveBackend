@@ -8,6 +8,7 @@ namespace BusinessLayer.Common.Response
 {
     public class SuccessResponse<T> : Response<T>
     {
+
         public SuccessResponse(T data) : base(true, data)
         {
         }
@@ -19,5 +20,10 @@ namespace BusinessLayer.Common.Response
         public SuccessResponse(string message) : base(true, message, default)
         {
         }
+
+        public SuccessResponse() // <-- Bunu ekleyin
+        {
+        }
+
     }
 }

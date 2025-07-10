@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Common.Interface;
+using DataAccessLayer.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,7 @@ namespace BusinessLayer.Interfaces
 
         IResponse<string> Create(OrdersCreate model);
         IResponse<string> Delete(int id);
-        
+        IResponse<List<OrdersDTO.OrdersQuery>> GetOrdersByCustomerId(int customerId);
+
     }
 }

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccessLayer.DTOs
 {
@@ -15,6 +12,7 @@ namespace DataAccessLayer.DTOs
             public decimal TotalAmount { get; set; }
             public string? Status { get; set; }
         }
+
         public class OrdersQuery
         {
             public int Id { get; set; }
@@ -22,31 +20,29 @@ namespace DataAccessLayer.DTOs
             public DateTime OrderDate { get; set; }
             public decimal TotalAmount { get; set; }
             public string? Status { get; set; }
+            public PaymentDTO.PaymentQuery? Payment { get; set; }
+            public CustomerAddressesDTO.CustomerAddressQuery? Address { get; set; }
+            public List<OrderDetailsDTO.OrderDetailsQuery>? OrderDetails { get; set; }
         }
+
         public class OrdersUpdate
         {
-            public int Id { get; set; }  // Id zorunlu, güncellenen kayıt için gerekli
-
-            public int? CustomerId { get; set; }  // Nullable hale getirdik
-            public DateTime? OrderDate { get; set; }  // Nullable hale getirdik
-            public decimal? TotalAmount { get; set; }  // Nullable hale getirdik
-
-
-           
+            public int Id { get; set; }
+            public int? CustomerId { get; set; }
+            public DateTime? OrderDate { get; set; }
+            public decimal? TotalAmount { get; set; }
+            public string? Status { get; set; }
         }
 
         public class OrdersUpdateStatus
         {
-            public int Id { get; set; }  // Id zorunlu, güncellenen kayıt için gerekli
-            public string? Status { get; set; }  // Nullable hale getirdik
+            public int Id { get; set; }
+            public string? Status { get; set; }
         }
-
 
         public class OrdersDelete
         {
             public int Id { get; set; }
         }
-       
-
     }
 }

@@ -11,7 +11,7 @@ namespace BusinessLayer.Interfaces
     public interface ICustomersService
     {
         IResponse<IEnumerable<CustomerQuery>> ListAll();
-        IResponse<IEnumerable<CustomerQuery>> FindById(int id);
+        IResponse<IEnumerable<CustomerQuery>> FindById(int CustomerID);
         IResponse<string> Update(CustomerUpdate model);
         IResponse<string> UpdatePassword(int customerId, string password);
         IResponse<string> Create(CustomerCreate model);

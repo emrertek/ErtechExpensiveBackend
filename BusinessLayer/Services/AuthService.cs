@@ -40,31 +40,30 @@ namespace BusinessLayer.Services
             }
         }
 
-        public string GenerateToken(string email, int customerId,bool isAdmin)
+        public string GenerateToken(string email, int customerId, string role)
         {
-            //string secret = _configuration.GetValue<string>("AppSettings:SecretKey");
-
             string secret = "SASHASKJDASHFJASHKD1234567890123456";
             byte[] key = Encoding.UTF8.GetBytes(secret);
 
             SymmetricSecurityKey securityKey = new SymmetricSecurityKey(key);
             SigningCredentials credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
-            List<Claim> claims = new List<Claim>();
+            List<Claim> claims = new List<Claim>
+             {
+                 new Claim("email", email),          // sade key
+                 new Claim("customerId", customerId.ToString()), // sade key
+                 new Claim("role", role)             // sade key
+             };
 
-            claims.Add(new Claim("Email", email));
-            claims.Add(new Claim("CustomerId", customerId.ToString()));
-            claims.Add(new Claim("IsAdmin", isAdmin.ToString()));
-
-
-            JwtSecurityToken securityToken =
-                new JwtSecurityToken(
-                    signingCredentials: credentials,
-                    claims: claims,
-                    expires: DateTime.Now.AddDays(7));
+            JwtSecurityToken securityToken = new JwtSecurityToken(
+                signingCredentials: credentials,
+                claims: claims,
+                expires: DateTime.Now.AddDays(7));
 
             string token = new JwtSecurityTokenHandler().WriteToken(securityToken);
             return token;
         }
+
+
     }
 }

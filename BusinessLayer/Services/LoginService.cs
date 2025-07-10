@@ -28,48 +28,92 @@ namespace BusinessLayer.Services
             _authService = authService;
         }
 
-        public IResponse<IEnumerable<string>> AuthenticateUser(LoginAuthDTO model)
+
+
+        public IResponse<LoginResultDTO> AuthenticateUser(LoginAuthDTO model)
         {
             try
             {
                 _parameterList.Reset();
                 _parameterList.Add("@Email", model.Email);
 
-                // Veritabanından kullanıcıyı çekiyoruz
                 var jsonResult = _databaseExecutions.ExecuteQuery("SpAuthenticate_Customer", _parameterList);
-
-                // JSON dizisi olabileceği için Liste olarak Deserialize et
                 var users = JsonConvert.DeserializeObject<List<LoginDTO>>(jsonResult);
 
-                // Eğer kullanıcı yoksa hata döndür
                 var user = users?.FirstOrDefault();
                 if (user == null)
                 {
-                    return new ErrorResponse<IEnumerable<string>>("Kullanıcı bulunamadı!");
+                    return new ErrorResponse<LoginResultDTO>("Kullanıcı bulunamadı!");
                 }
 
-                // Kullanıcının girdiği şifreyi hashleyerek veritabanındaki hash ile karşılaştır
                 string hashedInputPassword = _authService.GenerateHashedPassword(model.Password);
                 if (hashedInputPassword != user.Password)
                 {
-                    return new ErrorResponse<IEnumerable<string>>("Şifre hatalı!");
+                    return new ErrorResponse<LoginResultDTO>("Şifre hatalı!");
                 }
 
+                string token = _authService.GenerateToken(user.Email, user.CustomerId, user.Role); // Role'u ekledik
 
-                /*Admin Bilgilerini Al*/
-                bool isAdmin = user.IsAdmin;
+                var result = new LoginResultDTO
+                {
+                    Token = token,
+                    Role = user.Role, // Role ekledik
+                    Email = user.Email,
+                    CustomerId = user.CustomerId
+                };
 
-                /* Token Üretme */
-                string token = _authService.GenerateToken(user.Email, user.CustomerId, isAdmin);
-
-                return new SuccessResponse<IEnumerable<string>>(token);
-
+                return new SuccessResponse<LoginResultDTO>(result);
             }
             catch (Exception ex)
             {
-                return new ErrorResponse<IEnumerable<string>>(ex.Message);
+                return new ErrorResponse<LoginResultDTO>(ex.Message);
             }
         }
+
     }
 }
 
+//public IResponse<IEnumerable<string>> AuthenticateUser(LoginAuthDTO model)
+//{
+//    try
+//    {
+//        _parameterList.Reset();
+//        _parameterList.Add("@Email", model.Email);
+
+//        // Veritabanından kullanıcıyı çekiyoruz
+//        var jsonResult = _databaseExecutions.ExecuteQuery("SpAuthenticate_Customer", _parameterList);
+
+//        // JSON dizisi olabileceği için Liste olarak Deserialize et
+//        var users = JsonConvert.DeserializeObject<List<LoginDTO>>(jsonResult);
+
+//        // Eğer kullanıcı yoksa hata döndür
+//        var user = users?.FirstOrDefault();
+//        if (user == null)
+//        {
+//            return new ErrorResponse<IEnumerable<string>>("Kullanıcı bulunamadı!");
+//        }
+
+//        // Kullanıcının girdiği şifreyi hashleyerek veritabanındaki hash ile karşılaştır
+//        string hashedInputPassword = _authService.GenerateHashedPassword(model.Password);
+//        if (hashedInputPassword != user.Password)
+//        {
+//            return new ErrorResponse<IEnumerable<string>>("Şifre hatalı!");
+//        }
+
+
+//        /*Admin Bilgilerini Al*/
+//        bool Role = user.Role;
+
+//        /* Token Üretme */
+//        string token = _authService.GenerateToken(user.Email, user.CustomerId, user.Role);
+
+
+
+//        return new SuccessResponse<IEnumerable<string>>(token);
+
+//    }
+//    catch (Exception ex)
+//    {
+//        return new ErrorResponse<IEnumerable<string>>(ex.Message);
+//    }
+//}
