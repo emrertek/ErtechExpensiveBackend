@@ -1,5 +1,79 @@
 [
   {
+    "ContainingType": "PresentationLayer.Controllers.CustomerAddressesController",
+    "Method": "Create",
+    "RelativePath": "api/CustomerAddresses/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.CustomerAddressesDTO\u002BAddressCreate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresentationLayer.Controllers.CustomerAddressesController",
+    "Method": "Delete",
+    "RelativePath": "api/CustomerAddresses/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresentationLayer.Controllers.CustomerAddressesController",
+    "Method": "GetByCustomer",
+    "RelativePath": "api/CustomerAddresses/GetByCustomer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresentationLayer.Controllers.CustomerAddressesController",
+    "Method": "ListAll",
+    "RelativePath": "api/CustomerAddresses/ListAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresentationLayer.Controllers.CustomerAddressesController",
+    "Method": "Update",
+    "RelativePath": "api/CustomerAddresses/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.CustomerAddressesDTO\u002BAddressUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PresentationLayer.Controllers.CustomersController",
     "Method": "Create",
     "RelativePath": "api/Customers/Create",
@@ -95,6 +169,133 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PresentationLayer.Controllers.ImagesController",
+    "Method": "Create",
+    "RelativePath": "api/Images/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imagesCreateModel",
+        "Type": "DataAccessLayer.DTOs.ImagesDTO\u002BImagesCreate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresentationLayer.Controllers.ImagesController",
+    "Method": "Delete",
+    "RelativePath": "api/Images/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresentationLayer.Controllers.ImagesController",
+    "Method": "FindByGuid",
+    "RelativePath": "api/Images/FindByGuid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "guid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresentationLayer.Controllers.ImagesController",
+    "Method": "GetImageBase64ByGuid",
+    "RelativePath": "api/Images/GetImageBase64ByGuid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "guid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresentationLayer.Controllers.ImagesController",
+    "Method": "GetImagesByProductAsync",
+    "RelativePath": "api/Images/GetImagesByProduct/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresentationLayer.Controllers.ImagesController",
+    "Method": "ListAll",
+    "RelativePath": "api/Images/ListAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresentationLayer.Controllers.ImagesController",
+    "Method": "RenderImage",
+    "RelativePath": "api/Images/RenderImage/{imgGuid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imgGuid",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresentationLayer.Controllers.ImagesController",
+    "Method": "UploadAsync",
+    "RelativePath": "api/Images/Upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PresentationLayer.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "api/Login/AuthenticateUser",
@@ -138,6 +339,22 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresentationLayer.Controllers.OrderController",
+    "Method": "GetByCustomerId",
+    "RelativePath": "api/Order/GetByCustomerId/{customerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -285,6 +502,22 @@
       {
         "Name": "orderDetailsUpdateModel",
         "Type": "DataAccessLayer.DTOs.OrderDetailsDTO\u002BOrderDetailsUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OrderTransactionController",
+    "Method": "Create",
+    "RelativePath": "api/OrderTransaction/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.DTOs.OrderTransactionDTO\u002BCreate",
         "IsRequired": true
       }
     ],

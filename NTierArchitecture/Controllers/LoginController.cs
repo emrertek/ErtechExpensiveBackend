@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using BusinessLayer.Interfaces;
 using DataAccessLayer.DTOs;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace PresentationLayer.Controllers
 {
@@ -17,6 +18,7 @@ namespace PresentationLayer.Controllers
         }
 
         [HttpPost("AuthenticateUser")]
+        [EnableRateLimiting("loginRateLimit")]
         public IActionResult Login(LoginAuthDTO loginDTO)
         {
             var result = _loginService.AuthenticateUser(loginDTO);
@@ -26,7 +28,7 @@ namespace PresentationLayer.Controllers
                 return Ok(result);
             }
 
-            return BadRequest();
+            return BadRequest(result);
         }
     }
 }

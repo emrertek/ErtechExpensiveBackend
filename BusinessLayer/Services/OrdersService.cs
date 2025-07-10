@@ -94,6 +94,61 @@ namespace BusinessLayer.Services
             }
         }
 
+        public IResponse<List<OrdersDTO.OrdersQuery>> GetOrdersByCustomerId(int customerId)
+        {
+          try
+    {
+        var paramList = new ParameterList
+        {
+            { "@CustomerID", customerId }
+        };
+
+        var orders = _databaseExecutions.ExecuteReader<OrdersDTO.OrdersQuery>("SpGet_OrdersByCustomerID", paramList);
+
+                //OrdersQuery siparislerListesi = new OrdersQuery()
+
+                //var orders = _databaseExecutions.ExecuteReader<List<string>>("SpGet_OrdersByCustomerID", paramList);
+                // siparislerListesi.Address.PostalCode = orders.
+
+
+                foreach (var order in orders)
+        {
+            // Order Details
+            var orderDetailParam = new ParameterList
+            {
+                { "@OrderNo", $"ORD-{order.Id.ToString("D6")}" }
+            };
+            var details = _databaseExecutions.ExecuteReader<OrderDetailsDTO.OrderDetailsQuery>("SpGet_OrderDetailsByOrderNo", orderDetailParam);
+            order.OrderDetails = details;
+
+            // Payment Info
+            var paymentParam = new ParameterList
+            {
+                { "@OrderNo", $"ORD-{order.Id.ToString("D6")}" }
+            };
+            var paymentResult = _databaseExecutions.ExecuteQuery("SpGet_PaymentByOrderNo", paymentParam);
+            var payment = JsonConvert.DeserializeObject<IEnumerable<PaymentDTO.PaymentQuery>>(paymentResult)?.FirstOrDefault();
+            order.Payment = payment;
+
+            // Address Info
+            var addressParam = new ParameterList
+            {
+                { "@OrderID", order.Id }
+            };
+            var addressResult = _databaseExecutions.ExecuteQuery("SpGet_AddressByOrderID", addressParam);
+            var address = JsonConvert.DeserializeObject<IEnumerable<CustomerAddressesDTO.CustomerAddressQuery>>(addressResult)?.FirstOrDefault();
+            order.Address = address;
+        }
+
+        return new SuccessResponse<List<OrdersDTO.OrdersQuery>>(orders);
+    }
+    catch (Exception ex)
+    {
+        return new ErrorResponse<List<OrdersDTO.OrdersQuery>>($"Siparişler getirilemedi: {ex.Message}");
+    }
+        }
+
+
         public IResponse<IEnumerable<OrdersDTO.OrdersQuery>> ListAll()
         {
             try
@@ -151,5 +206,10 @@ namespace BusinessLayer.Services
                 return new ErrorResponse<string>(ex.Message);
             }
         }
+
+
+
+
+
     }
 }

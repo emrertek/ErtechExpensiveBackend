@@ -1,11 +1,13 @@
 ﻿using BusinessLayer.Interfaces;
 using DataAccessLayer.Entitites;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using static DataAccessLayer.DTOs.CustomersDTO;
 
 namespace PresentationLayer.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CustomersController : ControllerBase
@@ -16,6 +18,8 @@ namespace PresentationLayer.Controllers
             _customersService = customersService;
         }
 
+        //[Authorize(Roles = "SuperAdmin")]
+        [AllowAnonymous]
         [HttpPost("Create")]
         public IActionResult Create(CustomerCreate customerCreateModel)
         {
@@ -33,6 +37,7 @@ namespace PresentationLayer.Controllers
 
         }
 
+        [Authorize(Roles = "SuperAdmin")]
         [HttpDelete("Delete")]
         public IActionResult Delete(int id)
         {
@@ -49,6 +54,7 @@ namespace PresentationLayer.Controllers
         }
 
         [HttpGet("ListAll")]
+        [AllowAnonymous]
         public IActionResult List()
         {
             var response = _customersService.ListAll();
@@ -62,6 +68,8 @@ namespace PresentationLayer.Controllers
             }
         }
 
+        //[Authorize(Roles = "SuperAdmin")]
+        [AllowAnonymous]
         [HttpGet("FindById")]
         public IActionResult FindById(int id)
         {
@@ -77,6 +85,7 @@ namespace PresentationLayer.Controllers
             }
         }
 
+        [Authorize(Roles = "SuperAdmin")]
         [HttpPut("Update")]
         public IActionResult Update(CustomerUpdate customerUpdateModel)
         {
@@ -91,6 +100,7 @@ namespace PresentationLayer.Controllers
             }
         }
 
+        [Authorize(Roles = "SuperAdmin")]
         [HttpPut("UpdatePassword")]
         public IActionResult UpdatePassword(int customerId, string password)
         {

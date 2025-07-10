@@ -8,6 +8,7 @@ namespace BusinessLayer.Common.Interface
 {
     public interface IResponse<T> : IResult
     {
-        // T data { get; set; }
+       T Data { get; set; }
+        
     }
 }

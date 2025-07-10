@@ -1,12 +1,3318 @@
 {
   "Version": 1,
-  "Hash": "BvdJ/H/RfFqsJx465EFBx+F9IF5Kxv8QXNpq8vNvY4w=",
+  "Hash": "hApmGPogN7ORt6h7lzARUi5iL4kxXIUYJyWtYncNyPw=",
   "Source": "PresentationLayer",
   "BasePath": "_content/PresentationLayer",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "PresentationLayer\\wwwroot",
+      "Source": "PresentationLayer",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\0bd1d33f-5b8f-4bbd-ba7b-c9acdaacac74.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/0bd1d33f-5b8f-4bbd-ba7b-c9acdaacac74#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fu55dxwhcj",
+      "Integrity": "1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\0bd1d33f-5b8f-4bbd-ba7b-c9acdaacac74.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\0dd559c0-2711-47ab-8dab-337999e24005.png",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/0dd559c0-2711-47ab-8dab-337999e24005#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alnxgxknzv",
+      "Integrity": "UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\0dd559c0-2711-47ab-8dab-337999e24005.png"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\1dd7c126-3a06-478b-96ac-3bbe559256de.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/1dd7c126-3a06-478b-96ac-3bbe559256de#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fu55dxwhcj",
+      "Integrity": "1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\1dd7c126-3a06-478b-96ac-3bbe559256de.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\1f5237c8-ff37-42d2-96a7-7a3d0cadf9d8.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/1f5237c8-ff37-42d2-96a7-7a3d0cadf9d8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "57ttiut2vy",
+      "Integrity": "ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\1f5237c8-ff37-42d2-96a7-7a3d0cadf9d8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\3f02c5d7-9330-4c16-922d-11f146b5dc07.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/3f02c5d7-9330-4c16-922d-11f146b5dc07#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "57ttiut2vy",
+      "Integrity": "ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\3f02c5d7-9330-4c16-922d-11f146b5dc07.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\3f97be31-8ba7-44be-adb0-24c5bf3db139.png",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/3f97be31-8ba7-44be-adb0-24c5bf3db139#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alnxgxknzv",
+      "Integrity": "UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\3f97be31-8ba7-44be-adb0-24c5bf3db139.png"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\430aa504-d073-4899-ad2b-ea3dc0e59f4a.png",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/430aa504-d073-4899-ad2b-ea3dc0e59f4a#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alnxgxknzv",
+      "Integrity": "UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\430aa504-d073-4899-ad2b-ea3dc0e59f4a.png"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\4edaac6a-7e62-4575-b7cf-743601133850.png",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/4edaac6a-7e62-4575-b7cf-743601133850#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alnxgxknzv",
+      "Integrity": "UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\4edaac6a-7e62-4575-b7cf-743601133850.png"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\6a596456-b18f-491a-a35d-f979a21c3248.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/6a596456-b18f-491a-a35d-f979a21c3248#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "awfj70jtuv",
+      "Integrity": "Oq7m2QOftxY+lQ4d7LDtz4nb9i/YZl8m4Nj+WH8LhXM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\6a596456-b18f-491a-a35d-f979a21c3248.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\87e16e6d-f0f1-4a4e-bb4d-eaabf9a41991.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/87e16e6d-f0f1-4a4e-bb4d-eaabf9a41991#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nmrmlbnq3i",
+      "Integrity": "oZmou92RonLsPB+HWqAZWWP20oadQkHqAMqgXnu3RoI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\87e16e6d-f0f1-4a4e-bb4d-eaabf9a41991.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\8fd9852c-c7a8-4b18-9453-a6f2b343b42a.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/8fd9852c-c7a8-4b18-9453-a6f2b343b42a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fu55dxwhcj",
+      "Integrity": "1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\8fd9852c-c7a8-4b18-9453-a6f2b343b42a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\972d085f-681b-4418-9500-30bea84f0b18.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/972d085f-681b-4418-9500-30bea84f0b18#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "57ttiut2vy",
+      "Integrity": "ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\972d085f-681b-4418-9500-30bea84f0b18.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\9c8b5021-e9ce-414b-b7ea-392872e8d38a.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/9c8b5021-e9ce-414b-b7ea-392872e8d38a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fu55dxwhcj",
+      "Integrity": "1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\9c8b5021-e9ce-414b-b7ea-392872e8d38a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\a3ed572d-bea1-48e6-abaf-aca2a9d2d9c1.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/a3ed572d-bea1-48e6-abaf-aca2a9d2d9c1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "57ttiut2vy",
+      "Integrity": "ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\a3ed572d-bea1-48e6-abaf-aca2a9d2d9c1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\a61ccbb4-e973-4c15-920f-4fba0dc8bf7a.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/a61ccbb4-e973-4c15-920f-4fba0dc8bf7a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fu55dxwhcj",
+      "Integrity": "1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\a61ccbb4-e973-4c15-920f-4fba0dc8bf7a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\a9ae0214-03f4-49ec-b39d-40c06a6912cf.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/a9ae0214-03f4-49ec-b39d-40c06a6912cf#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "57ttiut2vy",
+      "Integrity": "ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\a9ae0214-03f4-49ec-b39d-40c06a6912cf.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\b3e20a2f-10a0-49d9-9aba-1d8c2882f0ed.png",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/b3e20a2f-10a0-49d9-9aba-1d8c2882f0ed#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alnxgxknzv",
+      "Integrity": "UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\b3e20a2f-10a0-49d9-9aba-1d8c2882f0ed.png"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\b720e281-2ea3-4c70-b2ad-28612597e290.png",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/b720e281-2ea3-4c70-b2ad-28612597e290#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alnxgxknzv",
+      "Integrity": "UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\b720e281-2ea3-4c70-b2ad-28612597e290.png"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\b7388714-7db9-4f44-9a44-7f4c511415b3.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/b7388714-7db9-4f44-9a44-7f4c511415b3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m87qhopv7a",
+      "Integrity": "2vcI/MMzwrPzHfAu7eVGdhUYJ/k5h56Cfen9zgHkqsU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\b7388714-7db9-4f44-9a44-7f4c511415b3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\b85f7b6b-90a6-436f-a2d6-c19f8a6cb93b.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/b85f7b6b-90a6-436f-a2d6-c19f8a6cb93b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "57ttiut2vy",
+      "Integrity": "ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\b85f7b6b-90a6-436f-a2d6-c19f8a6cb93b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\ba0052d1-fa41-4f07-a1d5-69a7836f02c9.png",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/ba0052d1-fa41-4f07-a1d5-69a7836f02c9#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alnxgxknzv",
+      "Integrity": "UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\ba0052d1-fa41-4f07-a1d5-69a7836f02c9.png"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\c3254fb6-ab81-472c-9fdc-0915d3260ef6.png",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/c3254fb6-ab81-472c-9fdc-0915d3260ef6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alnxgxknzv",
+      "Integrity": "UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\c3254fb6-ab81-472c-9fdc-0915d3260ef6.png"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\cdbc54fd-13c4-4a2e-9224-d578099f17dd.png",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/cdbc54fd-13c4-4a2e-9224-d578099f17dd#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alnxgxknzv",
+      "Integrity": "UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\cdbc54fd-13c4-4a2e-9224-d578099f17dd.png"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\d00a7021-5d6d-4e01-ac5d-fa4d6036c76b.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/d00a7021-5d6d-4e01-ac5d-fa4d6036c76b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fsdp4tp32i",
+      "Integrity": "D3pqvbOQg+8k8+OM09bmLLoVYnw5hWN+eGQkDjjibUA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\d00a7021-5d6d-4e01-ac5d-fa4d6036c76b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\d87473ce-9491-4c56-9b5f-cc6e8ed30091.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/d87473ce-9491-4c56-9b5f-cc6e8ed30091#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fu55dxwhcj",
+      "Integrity": "1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\d87473ce-9491-4c56-9b5f-cc6e8ed30091.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\dec3f6f3-990c-44ec-b897-006289ae7fd7.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/dec3f6f3-990c-44ec-b897-006289ae7fd7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "57ttiut2vy",
+      "Integrity": "ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\dec3f6f3-990c-44ec-b897-006289ae7fd7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\e2f06526-2cde-4f70-9cbb-f148a73386e1.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/e2f06526-2cde-4f70-9cbb-f148a73386e1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "57ttiut2vy",
+      "Integrity": "ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\e2f06526-2cde-4f70-9cbb-f148a73386e1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\e80b4680-5ad8-4b4a-9d82-bfde473c569d.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/e80b4680-5ad8-4b4a-9d82-bfde473c569d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fu55dxwhcj",
+      "Integrity": "1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\e80b4680-5ad8-4b4a-9d82-bfde473c569d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\ebaa8c81-9e0a-4e97-975b-e9e613c5fc10.png",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/ebaa8c81-9e0a-4e97-975b-e9e613c5fc10#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alnxgxknzv",
+      "Integrity": "UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\ebaa8c81-9e0a-4e97-975b-e9e613c5fc10.png"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\ef31b305-b2bd-4540-8944-c5070296edb3.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/ef31b305-b2bd-4540-8944-c5070296edb3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "57ttiut2vy",
+      "Integrity": "ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\ef31b305-b2bd-4540-8944-c5070296edb3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\f1ccdb85-1b08-43ef-a605-5301904908db.png",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/f1ccdb85-1b08-43ef-a605-5301904908db#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alnxgxknzv",
+      "Integrity": "UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\f1ccdb85-1b08-43ef-a605-5301904908db.png"
+    },
+    {
+      "Identity": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\fd172630-e430-4f2f-85cd-e3f443d6d61f.jpg",
+      "SourceId": "PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\",
+      "BasePath": "_content/PresentationLayer",
+      "RelativePath": "Uploads/fd172630-e430-4f2f-85cd-e3f443d6d61f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "57ttiut2vy",
+      "Integrity": "ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\fd172630-e430-4f2f-85cd-e3f443d6d61f.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Uploads/0bd1d33f-5b8f-4bbd-ba7b-c9acdaacac74.fu55dxwhcj.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\0bd1d33f-5b8f-4bbd-ba7b-c9acdaacac74.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 12:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fu55dxwhcj"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/0bd1d33f-5b8f-4bbd-ba7b-c9acdaacac74.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/0bd1d33f-5b8f-4bbd-ba7b-c9acdaacac74.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\0bd1d33f-5b8f-4bbd-ba7b-c9acdaacac74.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 12:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/0dd559c0-2711-47ab-8dab-337999e24005.alnxgxknzv.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\0dd559c0-2711-47ab-8dab-337999e24005.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 13:31:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "alnxgxknzv"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/0dd559c0-2711-47ab-8dab-337999e24005.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/0dd559c0-2711-47ab-8dab-337999e24005.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\0dd559c0-2711-47ab-8dab-337999e24005.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 13:31:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/1dd7c126-3a06-478b-96ac-3bbe559256de.fu55dxwhcj.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\1dd7c126-3a06-478b-96ac-3bbe559256de.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:39:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fu55dxwhcj"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/1dd7c126-3a06-478b-96ac-3bbe559256de.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/1dd7c126-3a06-478b-96ac-3bbe559256de.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\1dd7c126-3a06-478b-96ac-3bbe559256de.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:39:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/1f5237c8-ff37-42d2-96a7-7a3d0cadf9d8.57ttiut2vy.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\1f5237c8-ff37-42d2-96a7-7a3d0cadf9d8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 10:49:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "57ttiut2vy"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/1f5237c8-ff37-42d2-96a7-7a3d0cadf9d8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/1f5237c8-ff37-42d2-96a7-7a3d0cadf9d8.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\1f5237c8-ff37-42d2-96a7-7a3d0cadf9d8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 10:49:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/3f02c5d7-9330-4c16-922d-11f146b5dc07.57ttiut2vy.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\3f02c5d7-9330-4c16-922d-11f146b5dc07.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 11:36:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "57ttiut2vy"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/3f02c5d7-9330-4c16-922d-11f146b5dc07.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/3f02c5d7-9330-4c16-922d-11f146b5dc07.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\3f02c5d7-9330-4c16-922d-11f146b5dc07.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 11:36:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/3f97be31-8ba7-44be-adb0-24c5bf3db139.alnxgxknzv.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\3f97be31-8ba7-44be-adb0-24c5bf3db139.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:09:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "alnxgxknzv"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/3f97be31-8ba7-44be-adb0-24c5bf3db139.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/3f97be31-8ba7-44be-adb0-24c5bf3db139.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\3f97be31-8ba7-44be-adb0-24c5bf3db139.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:09:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/430aa504-d073-4899-ad2b-ea3dc0e59f4a.alnxgxknzv.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\430aa504-d073-4899-ad2b-ea3dc0e59f4a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:52:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "alnxgxknzv"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/430aa504-d073-4899-ad2b-ea3dc0e59f4a.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/430aa504-d073-4899-ad2b-ea3dc0e59f4a.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\430aa504-d073-4899-ad2b-ea3dc0e59f4a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:52:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/4edaac6a-7e62-4575-b7cf-743601133850.alnxgxknzv.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\4edaac6a-7e62-4575-b7cf-743601133850.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 06:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "alnxgxknzv"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/4edaac6a-7e62-4575-b7cf-743601133850.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/4edaac6a-7e62-4575-b7cf-743601133850.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\4edaac6a-7e62-4575-b7cf-743601133850.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 06:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/6a596456-b18f-491a-a35d-f979a21c3248.awfj70jtuv.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\6a596456-b18f-491a-a35d-f979a21c3248.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14840630"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Oq7m2QOftxY+lQ4d7LDtz4nb9i/YZl8m4Nj+WH8LhXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 13:08:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "awfj70jtuv"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/6a596456-b18f-491a-a35d-f979a21c3248.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Oq7m2QOftxY+lQ4d7LDtz4nb9i/YZl8m4Nj+WH8LhXM="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/6a596456-b18f-491a-a35d-f979a21c3248.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\6a596456-b18f-491a-a35d-f979a21c3248.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14840630"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Oq7m2QOftxY+lQ4d7LDtz4nb9i/YZl8m4Nj+WH8LhXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 13:08:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Oq7m2QOftxY+lQ4d7LDtz4nb9i/YZl8m4Nj+WH8LhXM="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/87e16e6d-f0f1-4a4e-bb4d-eaabf9a41991.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\87e16e6d-f0f1-4a4e-bb4d-eaabf9a41991.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10631205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oZmou92RonLsPB+HWqAZWWP20oadQkHqAMqgXnu3RoI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 13:22:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oZmou92RonLsPB+HWqAZWWP20oadQkHqAMqgXnu3RoI="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/87e16e6d-f0f1-4a4e-bb4d-eaabf9a41991.nmrmlbnq3i.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\87e16e6d-f0f1-4a4e-bb4d-eaabf9a41991.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10631205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oZmou92RonLsPB+HWqAZWWP20oadQkHqAMqgXnu3RoI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 13:22:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nmrmlbnq3i"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/87e16e6d-f0f1-4a4e-bb4d-eaabf9a41991.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oZmou92RonLsPB+HWqAZWWP20oadQkHqAMqgXnu3RoI="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/8fd9852c-c7a8-4b18-9453-a6f2b343b42a.fu55dxwhcj.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\8fd9852c-c7a8-4b18-9453-a6f2b343b42a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 11:03:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fu55dxwhcj"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/8fd9852c-c7a8-4b18-9453-a6f2b343b42a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/8fd9852c-c7a8-4b18-9453-a6f2b343b42a.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\8fd9852c-c7a8-4b18-9453-a6f2b343b42a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 11:03:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/972d085f-681b-4418-9500-30bea84f0b18.57ttiut2vy.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\972d085f-681b-4418-9500-30bea84f0b18.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 09:07:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "57ttiut2vy"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/972d085f-681b-4418-9500-30bea84f0b18.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/972d085f-681b-4418-9500-30bea84f0b18.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\972d085f-681b-4418-9500-30bea84f0b18.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 09:07:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/9c8b5021-e9ce-414b-b7ea-392872e8d38a.fu55dxwhcj.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\9c8b5021-e9ce-414b-b7ea-392872e8d38a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 11:07:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fu55dxwhcj"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/9c8b5021-e9ce-414b-b7ea-392872e8d38a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/9c8b5021-e9ce-414b-b7ea-392872e8d38a.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\9c8b5021-e9ce-414b-b7ea-392872e8d38a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 11:07:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/a3ed572d-bea1-48e6-abaf-aca2a9d2d9c1.57ttiut2vy.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\a3ed572d-bea1-48e6-abaf-aca2a9d2d9c1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 10:47:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "57ttiut2vy"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/a3ed572d-bea1-48e6-abaf-aca2a9d2d9c1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/a3ed572d-bea1-48e6-abaf-aca2a9d2d9c1.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\a3ed572d-bea1-48e6-abaf-aca2a9d2d9c1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 10:47:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/a61ccbb4-e973-4c15-920f-4fba0dc8bf7a.fu55dxwhcj.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\a61ccbb4-e973-4c15-920f-4fba0dc8bf7a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 12:15:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fu55dxwhcj"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/a61ccbb4-e973-4c15-920f-4fba0dc8bf7a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/a61ccbb4-e973-4c15-920f-4fba0dc8bf7a.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\a61ccbb4-e973-4c15-920f-4fba0dc8bf7a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 12:15:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/a9ae0214-03f4-49ec-b39d-40c06a6912cf.57ttiut2vy.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\a9ae0214-03f4-49ec-b39d-40c06a6912cf.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:23:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "57ttiut2vy"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/a9ae0214-03f4-49ec-b39d-40c06a6912cf.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/a9ae0214-03f4-49ec-b39d-40c06a6912cf.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\a9ae0214-03f4-49ec-b39d-40c06a6912cf.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:23:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/b3e20a2f-10a0-49d9-9aba-1d8c2882f0ed.alnxgxknzv.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\b3e20a2f-10a0-49d9-9aba-1d8c2882f0ed.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:57:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "alnxgxknzv"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/b3e20a2f-10a0-49d9-9aba-1d8c2882f0ed.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/b3e20a2f-10a0-49d9-9aba-1d8c2882f0ed.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\b3e20a2f-10a0-49d9-9aba-1d8c2882f0ed.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:57:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/b720e281-2ea3-4c70-b2ad-28612597e290.alnxgxknzv.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\b720e281-2ea3-4c70-b2ad-28612597e290.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:51:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "alnxgxknzv"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/b720e281-2ea3-4c70-b2ad-28612597e290.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/b720e281-2ea3-4c70-b2ad-28612597e290.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\b720e281-2ea3-4c70-b2ad-28612597e290.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:51:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/b7388714-7db9-4f44-9a44-7f4c511415b3.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\b7388714-7db9-4f44-9a44-7f4c511415b3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7383192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2vcI/MMzwrPzHfAu7eVGdhUYJ/k5h56Cfen9zgHkqsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 13:19:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2vcI/MMzwrPzHfAu7eVGdhUYJ/k5h56Cfen9zgHkqsU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/b7388714-7db9-4f44-9a44-7f4c511415b3.m87qhopv7a.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\b7388714-7db9-4f44-9a44-7f4c511415b3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7383192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2vcI/MMzwrPzHfAu7eVGdhUYJ/k5h56Cfen9zgHkqsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 13:19:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m87qhopv7a"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/b7388714-7db9-4f44-9a44-7f4c511415b3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2vcI/MMzwrPzHfAu7eVGdhUYJ/k5h56Cfen9zgHkqsU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/b85f7b6b-90a6-436f-a2d6-c19f8a6cb93b.57ttiut2vy.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\b85f7b6b-90a6-436f-a2d6-c19f8a6cb93b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:23:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "57ttiut2vy"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/b85f7b6b-90a6-436f-a2d6-c19f8a6cb93b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/b85f7b6b-90a6-436f-a2d6-c19f8a6cb93b.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\b85f7b6b-90a6-436f-a2d6-c19f8a6cb93b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:23:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/ba0052d1-fa41-4f07-a1d5-69a7836f02c9.alnxgxknzv.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\ba0052d1-fa41-4f07-a1d5-69a7836f02c9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:43:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "alnxgxknzv"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/ba0052d1-fa41-4f07-a1d5-69a7836f02c9.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/ba0052d1-fa41-4f07-a1d5-69a7836f02c9.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\ba0052d1-fa41-4f07-a1d5-69a7836f02c9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:43:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/c3254fb6-ab81-472c-9fdc-0915d3260ef6.alnxgxknzv.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\c3254fb6-ab81-472c-9fdc-0915d3260ef6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 09:08:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "alnxgxknzv"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/c3254fb6-ab81-472c-9fdc-0915d3260ef6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/c3254fb6-ab81-472c-9fdc-0915d3260ef6.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\c3254fb6-ab81-472c-9fdc-0915d3260ef6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 09:08:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/cdbc54fd-13c4-4a2e-9224-d578099f17dd.alnxgxknzv.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\cdbc54fd-13c4-4a2e-9224-d578099f17dd.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 13:17:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "alnxgxknzv"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/cdbc54fd-13c4-4a2e-9224-d578099f17dd.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/cdbc54fd-13c4-4a2e-9224-d578099f17dd.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\cdbc54fd-13c4-4a2e-9224-d578099f17dd.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 13:17:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/d00a7021-5d6d-4e01-ac5d-fa4d6036c76b.fsdp4tp32i.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\d00a7021-5d6d-4e01-ac5d-fa4d6036c76b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8872193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D3pqvbOQg+8k8+OM09bmLLoVYnw5hWN+eGQkDjjibUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 08:26:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fsdp4tp32i"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/d00a7021-5d6d-4e01-ac5d-fa4d6036c76b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D3pqvbOQg+8k8+OM09bmLLoVYnw5hWN+eGQkDjjibUA="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/d00a7021-5d6d-4e01-ac5d-fa4d6036c76b.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\d00a7021-5d6d-4e01-ac5d-fa4d6036c76b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8872193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D3pqvbOQg+8k8+OM09bmLLoVYnw5hWN+eGQkDjjibUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 08:26:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D3pqvbOQg+8k8+OM09bmLLoVYnw5hWN+eGQkDjjibUA="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/d87473ce-9491-4c56-9b5f-cc6e8ed30091.fu55dxwhcj.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\d87473ce-9491-4c56-9b5f-cc6e8ed30091.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 09:03:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fu55dxwhcj"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/d87473ce-9491-4c56-9b5f-cc6e8ed30091.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/d87473ce-9491-4c56-9b5f-cc6e8ed30091.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\d87473ce-9491-4c56-9b5f-cc6e8ed30091.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 09:03:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/dec3f6f3-990c-44ec-b897-006289ae7fd7.57ttiut2vy.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\dec3f6f3-990c-44ec-b897-006289ae7fd7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 06:38:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "57ttiut2vy"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/dec3f6f3-990c-44ec-b897-006289ae7fd7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/dec3f6f3-990c-44ec-b897-006289ae7fd7.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\dec3f6f3-990c-44ec-b897-006289ae7fd7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 06:38:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/e2f06526-2cde-4f70-9cbb-f148a73386e1.57ttiut2vy.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\e2f06526-2cde-4f70-9cbb-f148a73386e1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:10:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "57ttiut2vy"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/e2f06526-2cde-4f70-9cbb-f148a73386e1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/e2f06526-2cde-4f70-9cbb-f148a73386e1.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\e2f06526-2cde-4f70-9cbb-f148a73386e1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:10:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/e80b4680-5ad8-4b4a-9d82-bfde473c569d.fu55dxwhcj.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\e80b4680-5ad8-4b4a-9d82-bfde473c569d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 11:08:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fu55dxwhcj"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/e80b4680-5ad8-4b4a-9d82-bfde473c569d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/e80b4680-5ad8-4b4a-9d82-bfde473c569d.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\e80b4680-5ad8-4b4a-9d82-bfde473c569d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 11:08:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1z2Ml/5FiMVbHj94jxrYFfRef3bBVQDMsNE376pOhQw="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/ebaa8c81-9e0a-4e97-975b-e9e613c5fc10.alnxgxknzv.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\ebaa8c81-9e0a-4e97-975b-e9e613c5fc10.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:01:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "alnxgxknzv"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/ebaa8c81-9e0a-4e97-975b-e9e613c5fc10.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/ebaa8c81-9e0a-4e97-975b-e9e613c5fc10.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\ebaa8c81-9e0a-4e97-975b-e9e613c5fc10.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:01:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/ef31b305-b2bd-4540-8944-c5070296edb3.57ttiut2vy.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\ef31b305-b2bd-4540-8944-c5070296edb3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:23:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "57ttiut2vy"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/ef31b305-b2bd-4540-8944-c5070296edb3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/ef31b305-b2bd-4540-8944-c5070296edb3.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\ef31b305-b2bd-4540-8944-c5070296edb3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:23:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/f1ccdb85-1b08-43ef-a605-5301904908db.alnxgxknzv.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\f1ccdb85-1b08-43ef-a605-5301904908db.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 13:30:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "alnxgxknzv"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/f1ccdb85-1b08-43ef-a605-5301904908db.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/f1ccdb85-1b08-43ef-a605-5301904908db.png",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\f1ccdb85-1b08-43ef-a605-5301904908db.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2458172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 13:30:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtYKU4mhjaP18rnNVjl+EQ2p73n0i/SlrDo519RbRcU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/fd172630-e430-4f2f-85cd-e3f443d6d61f.57ttiut2vy.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\fd172630-e430-4f2f-85cd-e3f443d6d61f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:21:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "57ttiut2vy"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/fd172630-e430-4f2f-85cd-e3f443d6d61f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/fd172630-e430-4f2f-85cd-e3f443d6d61f.jpg",
+      "AssetFile": "C:\\Users\\emree\\source\\repos\\NTierArchitecture\\NTierArchitecture\\wwwroot\\Uploads\\fd172630-e430-4f2f-85cd-e3f443d6d61f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:21:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ERNaecXHIzB0jL4k7qDKz7I8AvdhBEI+VAFVjKh6pBE="
+        }
+      ]
+    }
+  ]
 }

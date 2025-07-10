@@ -37,7 +37,7 @@ namespace BusinessLayer.Services
                 _parameterList.Add("@LastName", model.LastName);
                 _parameterList.Add("@Email", model.Email);
                 _parameterList.Add("@Phone", model.Phone);
-                _parameterList.Add("@IsAdmin", model.IsAdmin);
+                _parameterList.Add("@Role", model.Role);
                 //_parameterList.Add("@Password", model.Password);
 
 
@@ -78,11 +78,12 @@ namespace BusinessLayer.Services
             }        
         }
 
-        public IResponse<IEnumerable<CustomersDTO.CustomerQuery>> FindById(int id)
+        public IResponse<IEnumerable<CustomersDTO.CustomerQuery>> FindById(int CustomerID)
         {
             try
             {
-                _parameterList.Add("@CustomerID", id);
+                _parameterList.Reset();
+                _parameterList.Add("@CustomerID", CustomerID);
 
                 var jsonResult = _databaseExecutions.ExecuteQuery("SpGetById_Customer", _parameterList);
                 var selectedCustomer = JsonConvert.DeserializeObject<IEnumerable<CustomersDTO.CustomerQuery>>(jsonResult);
@@ -122,13 +123,13 @@ namespace BusinessLayer.Services
             try
             {
                 _parameterList.Reset();
-                _parameterList.Add("@CustomerID", model.Id);
+                _parameterList.Add("@CustomerID", model.CustomerID);
                 _parameterList.Add("@FirstName", model.FirstName);
                 _parameterList.Add("@LastName", model.LastName);
                 _parameterList.Add("@Email", model.Email);
                 _parameterList.Add("@Phone", model.Phone);
-                _parameterList.Add("IsAdmin", model.IsAdmin);
-                
+                _parameterList.Add("@Role", model.Role);
+
 
                 var jsonResult = _databaseExecutions.ExecuteQuery("SpUpdate_Customer", _parameterList);
 
@@ -140,7 +141,6 @@ namespace BusinessLayer.Services
                 return new ErrorResponse<string>(ex.Message);
             }
         }
-
 
         public IResponse<string> UpdatePassword(int customerId, string password)
         {

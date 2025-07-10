@@ -34,5 +34,9 @@ namespace BusinessLayer.Common.Response
         }
 
         public T Data { get; set; }
+
+        public Response()
+        {
+        }
     }
 }

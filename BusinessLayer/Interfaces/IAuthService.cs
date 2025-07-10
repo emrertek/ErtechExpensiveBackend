@@ -8,7 +8,7 @@ namespace BusinessLayer.Interfaces
 {
     public interface IAuthService
     {
-        string GenerateToken(string email, int customerId, bool isAdmin);
+        string GenerateToken(string email, int customerId, string role);
         string GenerateHashedPassword(string password);
     }       
 }

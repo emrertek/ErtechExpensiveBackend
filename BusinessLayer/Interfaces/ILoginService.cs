@@ -11,7 +11,9 @@ namespace BusinessLayer.Interfaces
 {
     public interface ILoginService
     {
-      //  IResponse<string> AuthenticateUser(LoginDTO loginDTO);
-      IResponse<IEnumerable<string>> AuthenticateUser(LoginAuthDTO model);
+     // IResponse<string> AuthenticateUser(LoginDTO loginDTO);
+     // IResponse<IEnumerable<string>> AuthenticateUser(LoginAuthDTO model);
+        IResponse<LoginResultDTO> AuthenticateUser(LoginAuthDTO model);
+
     }
 }
